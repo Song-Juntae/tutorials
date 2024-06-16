@@ -1,0 +1,10 @@
+# conda environments:
+#
+base                  *  /home/sjt/miniconda3
+ai                       /home/sjt/miniconda3/envs/ai
+docker                   /home/sjt/miniconda3/envs/docker
+lama3                    /home/sjt/miniconda3/envs/lama3
+music                    /home/sjt/miniconda3/envs/music
+stock                    /home/sjt/miniconda3/envs/stock
+streamlit                /home/sjt/miniconda3/envs/streamlit
+
