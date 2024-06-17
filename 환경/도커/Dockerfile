@@ -1,3 +1,6 @@
+# FROM
+FROM sjt
+
 # LABEL
 LABEL name="Juntae Song"
 LABEL email="sjt0332@gmail.com"
