@@ -39,11 +39,11 @@ RUN groupadd conda && \
     chmod 770 -R /downloads/miniconda3
 
 # USER
-RUN useradd -m -g conda -s /bin/bash pgl && \
-    echo ". /downloads/miniconda3/etc/profile.d/conda.sh" >> /home/pgl/.bashrc && \
-    echo "conda activate base" >> /home/pgl/.bashrc
-RUN usermod -G sudo -a pgl
-USER pgl
+RUN useradd -m -g conda -s /bin/bash sjt && \
+    echo ". /downloads/miniconda3/etc/profile.d/conda.sh" >> /home/sjt/.bashrc && \
+    echo "conda activate base" >> /home/sjt/.bashrc
+RUN usermod -G sudo -a sjt
+USER sjt
 RUN conda update -n base -c defaults conda --force && \
     conda update -y --all
 RUN conda upgrade -n base conda
